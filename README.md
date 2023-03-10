@@ -2,7 +2,7 @@
 
 --> Clone the repository
 ```bash
-git clone 'INSERT REPO URL"
+git clone https://github.com/joelcg/PT605-Channel-Django-App.git
 
 ```
 
