@@ -8,7 +8,7 @@ git clone 'INSERT REPO URL"
 
 --> Move into the project directory
 ```bash
-cd StudyBud
+cd channels
 
 ```
 
