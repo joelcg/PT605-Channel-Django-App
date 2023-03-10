@@ -1,18 +1,18 @@
 # Pentest605 Channels
 
---> Clone the repository
+Clone repo nya
 ```bash
 git clone https://github.com/joelcg/PT605-Channel-Django-App.git
 
 ```
 
---> Move into the project directory
+Pindah ke dir project Django nya
 ```bash
 cd channels
 
 ```
 
---> Create a virtual environment
+Siapkan virtual environment
 ```bash
 # Install virtualenv
 pip install virtualenv
@@ -25,22 +25,22 @@ python -m virtualenv envname
 
 ```
 
---> Activate the virtual environment
+Aktivasi virtual environment
 ```bash
 envname\scripts\activate
 
 ```
 
---> Install dependencies
+Instal dependencies
 ```bash
 pip install -r requirements.txt
 
 ```
 
---> Run web app
+Jalankan aplikasi web nya
 ```bash
 python manage.py runserver
 
 ```
 
-> Development server web app is accessible here: http://127.0.0.1:8000/
+> Server development aplikasi web nya bisa diakses disini: http://127.0.0.1:8000/
