@@ -6,28 +6,29 @@ git clone https://github.com/joelcg/PT605-Channel-Django-App.git
 
 ```
 
-Pindah ke dir project Django nya
+Instal virtual environment
 ```bash
-cd channels
+pip install virtualenv
 
 ```
 
-Siapkan virtual environment
+Buat folder virtual environment
 ```bash
-# Install virtualenv
-pip install virtualenv
+virtualenv namaenv
 
-# Create our virtual environment
-virtualenv envname
-
-# If fails, try this
+# Kalau gagal, coba ini
 python -m virtualenv envname
-
 ```
 
 Aktivasi virtual environment
 ```bash
 envname\scripts\activate
+
+```
+
+Buat file secret key dengan nama secret.txt
+```bash
+echo iniadalahstringsecretbuatlahsedemikianrupaagartidaklemah > secret.txt
 
 ```
 
@@ -37,10 +38,17 @@ pip install -r requirements.txt
 
 ```
 
+Migrasikan migrations ke sqlite db
+```bash
+python manage.py makemigrations
+python manage.py migrate
+
+```
+
 Jalankan aplikasi web nya
 ```bash
 python manage.py runserver
 
 ```
 
-> Server development aplikasi web nya bisa diakses disini: http://127.0.0.1:8000/
+> Aplikasi web nya bisa diakses disini: http://127.0.0.1:8000/
