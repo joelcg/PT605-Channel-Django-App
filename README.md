@@ -17,12 +17,12 @@ Buat folder virtual environment
 virtualenv namaenv
 
 # Kalau gagal, coba ini
-python -m virtualenv envname
+python -m virtualenv namaenv
 ```
 
 Aktivasi virtual environment
 ```bash
-envname\scripts\activate
+namaenv\scripts\activate
 
 ```
 
